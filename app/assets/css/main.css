@@ -91,7 +91,7 @@
     --grey-200: hsl(213 3.9% 55.1%);
     --grey-100: hsl(214 4.6% 70%);
 
-    --light-100:#ffffff;
+    --light-100:hsl(0, 0%, 100%);
 }
 
 html, body {
