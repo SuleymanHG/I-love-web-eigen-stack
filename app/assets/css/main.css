@@ -102,6 +102,20 @@ body{
     background: var(--purple-700);
 }
 
+h1,h2,h3,h4{
+  color: var(--light-100);
+}
+
 h1{
-  color: aliceblue;
+  font-size: clamp(2.5rem, 3vw + 1rem, 4rem);
+  font-weight: 700;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+p{
+  color: var(--light-100);
+  opacity: 80%;
 }
