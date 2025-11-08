@@ -1,3 +1,5 @@
 <template>
-  <<HeroSection />
+  <HeroSection />
+  <ProjectSection />
+  
 </template>

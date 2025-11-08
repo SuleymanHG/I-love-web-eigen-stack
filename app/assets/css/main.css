@@ -104,6 +104,7 @@
     /* Border radius */
     --button-border-radius: 11px;
     --main-border-radius:20px;
+    --image-border-radius:10px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -112,11 +113,14 @@ html, body {
   font-family: 'DMSans', sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 body{
-    background: var(--purple-700);
-    padding: 0 35px;
+  max-width: 2000px;
+  background: var(--purple-700);
+  padding: 0 35px;
 
     @media (min-width:768px){
       padding:0 100px;
@@ -170,4 +174,8 @@ a{
   background: var(--component-background);  
   border:1px solid var(--button-border)
 
+}
+
+img{
+  border-radius: var(--image-border-radius);
 }
