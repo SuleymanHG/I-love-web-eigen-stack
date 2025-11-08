@@ -95,6 +95,15 @@
     --light-muted:hsl(0, 0%, 80%);
 
     --component-background: hsl(0, 0%, 100%, 4%);
+
+    /* Strokes */
+
+    --button-border:hsl(0, 0%, 100%, 5%);
+    --components-border:hsl(226, 39%, 6%, 5%);
+
+    /* Border radius */
+    --button-border-radius: 11px;
+    --main-border-radius:20px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -117,13 +126,13 @@ body{
       padding:0 150px;
     }
 }
-
+/* ===== Text styles ===== */
 h1,h2,h3,h4{
   color: var(--light-100);
 }
 
 h1{
-  font-size: clamp(2.5rem, 3vw + 1rem, 4rem);
+  font-size: clamp(2rem, 3vw + 1rem, 4rem);
   font-weight: 700;
 }
 
@@ -133,4 +142,32 @@ h2{
 
 p{
   color: var(--light-muted);
+}
+
+/* ===== Button styles ===== */
+a{
+  text-decoration: none;
+  color: var(--light-100);
+
+}
+
+.main-button{
+  background: var(--blue-400);
+  font-weight: 500;
+  padding:10px 25px;
+  border-radius: var(--button-border-radius);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+
+  &:hover{
+    transform: scale(1.02) ;
+    background:var(--blue-500);
+  }
+}
+
+.secondary-button{
+  border-radius: var(--button-border-radius);
+  padding:10px 25px;
+  background: var(--component-background);  
+  border:1px solid var(--button-border)
+
 }
