@@ -92,6 +92,7 @@
     --grey-100: hsl(214 4.6% 70%);
 
     --light-100:hsl(0, 0%, 100%);
+    --light-muted:hsl(0, 0%, 80%);
 
     --component-background: hsl(0, 0%, 100%, 4%);
 }
@@ -131,5 +132,5 @@ h2{
 }
 
 p{
-  color: var(--light-100);
+  color: var(--light-muted);
 }
