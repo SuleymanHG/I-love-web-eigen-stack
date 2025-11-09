@@ -11,7 +11,7 @@
             </div>
 
             <div>
-                <img src="../assets/images/projects-foto-1.avif" alt="Project preview" loading="lazy">
+                <img src="~/assets/images/projects-foto-1.avif" alt="Project preview" loading="lazy">
             </div>
         </section>
         <section class="project-list">
@@ -19,8 +19,8 @@
             <div>
               <h3>Squadpage</h3>
               <p>FDND 2025/26</p>
-            </div>
-            <img src="../assets/images/squad-page-home.avif" alt="Screenshot of Squadpage project" loading="lazy" width="191" height="134">
+            </div>  
+            <img src="~/assets/images/squad-page-home.avif" alt="Screenshot of Squadpage project" loading="lazy" width="191" height="134">
           </NuxtLink>
 
           <NuxtLink to="/cases" class="component-container project-list-items">
@@ -28,7 +28,7 @@
               <h3>Profile card</h3>
               <p>FDND 2025/26</p>
             </div>
-            <img src="../assets/images/profile-card.avif" alt="Screenshot of Profile card project" loading="lazy" width="191" height="134">
+            <img src="~/assets/images/profile-card.avif" alt="Screenshot of Profile card project" loading="lazy" width="191" height="134">
           </NuxtLink>
 
           <NuxtLink to="/cases" class="component-container project-list-items">
@@ -36,7 +36,7 @@
               <h3>Footguard</h3>
               <p>FDND 2025/26</p>
             </div>
-            <img src="../assets/images/footguard.avif" alt="Screenshot of Footguard project" loading="lazy" width="191" height="134">
+            <img src="~/assets/images/footguard.avif" alt="Screenshot of Footguard project" loading="lazy" width="191" height="134">
           </NuxtLink>
 
           <NuxtLink to="/cases" class="component-container project-list-items">
@@ -44,7 +44,7 @@
               <h3>Learningstone</h3>
               <p>FDND 2024/25</p>
             </div>
-            <img src="../assets/images/learningstone-game.avif" alt="Screenshot of Learningstone project" loading="lazy" width="191" height="134">
+            <img src="~/assets/images/learningstone-game.avif" alt="Screenshot of Learningstone project" loading="lazy" width="191" height="134">
           </NuxtLink>
         </section>
 

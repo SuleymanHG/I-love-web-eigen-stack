@@ -1,5 +1,5 @@
 <template>
-  <HeroSection />
-  <ProjectSection />
-  
+  <HomeHeroSection />
+  <HomeProjectSection />
+  <HomeAboutmeSection />
 </template>
