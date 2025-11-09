@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "start": "nuxt start",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "local": "serve .output/public -s"
   },
   "dependencies": {
     "nuxt": "^4.2.0",
