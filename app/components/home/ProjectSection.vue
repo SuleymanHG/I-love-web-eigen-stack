@@ -7,7 +7,7 @@
                     Explore some of the projects I've designed and built,
                     each with its own story and style.
                 </p>
-                <a href="/cases" class="secondary-button">View projects</a>
+                <NuxtLink to="/cases" class="secondary-button">View projects</NuxtLink>
             </div>
 
             <div>

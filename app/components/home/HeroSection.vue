@@ -6,8 +6,8 @@
     </div>
     
     <div>
-        <a href="/cases" class="main-button">View my work</a>
-        <a href="/about" class="secondary-button">About me</a>
+        <NuxtLink to="/cases" class="main-button">View my work</NuxtLink>
+        <NuxtLink to="/about" class="secondary-button">About me</NuxtLink>
     </div>
   </section>
 </template>
