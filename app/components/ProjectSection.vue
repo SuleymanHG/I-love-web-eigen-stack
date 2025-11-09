@@ -59,7 +59,7 @@
 }
 
 /* Button override */
-.projects .secondary-button {
+.projects .secondary-button {   
   display: inline-block;
   position: static;
   width: auto;

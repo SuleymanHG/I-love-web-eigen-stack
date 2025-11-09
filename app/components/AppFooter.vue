@@ -18,8 +18,6 @@
         <ul class="list">
         <li><NuxtLink to="/terms">Terms &amp; Conditions</NuxtLink></li>
         <li><NuxtLink to="/privacy">Privacy Policy</NuxtLink></li>
-        <li><NuxtLink to="/sitemap">Sitemap</NuxtLink></li>
-        <li><NuxtLink to="/accessibility">Accessibility</NuxtLink></li>
         <li><NuxtLink to="/cookies">Cookie settings</NuxtLink></li>
         </ul>
     </section>
